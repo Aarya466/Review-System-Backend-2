@@ -8,7 +8,7 @@ import router from "../Routes/FeedbackRoutes.js";
 
 const app=express();
 
-const PORT=3000;
+const PORT=3000  || process.env.PORT;
 
 app.use(express.json())
 
